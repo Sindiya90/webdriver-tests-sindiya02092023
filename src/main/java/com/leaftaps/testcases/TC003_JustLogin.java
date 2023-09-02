@@ -14,6 +14,7 @@ public class TC002_JustLogin extends ProjectHooks{
 		authors="rbyarulpratega";
 		category ="Smoke";
 		excelFileName="Login";
+                extent report= "demoReport";
 	}
 	
 	@Test(dataProvider = "fetchData")
